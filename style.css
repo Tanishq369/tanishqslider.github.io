@@ -5,7 +5,6 @@
 
 header{
     width: 100%; height: 100vh;
-    background-image: url('Taj_Mahal_in_India_-_Kristian_Bertel.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -16,6 +15,29 @@ nav{
     color: white; display: flex; justify-content: space-between;
     align-items: center; text-transform: uppercase;
 }
+
+           body{
+              margin: 0;
+              padding: 0;
+              font-family: arial;
+           }
+
+             .container{
+                 position: absolute;
+                 left: 0;
+                 top: 0;
+                 width: 100%;
+                 height: 100vh;
+                 animation: animate 16s ease-in-out infinite;
+                 background-size: cover;
+             }
+
+             @keyframes animate{
+                 0%{ background-image: url('Taj_Mahal_in_India_-_Kristian_Bertel.jpg'); } 
+                 25%{ background-image: url('Taj_Mahal_in_India_-_Kristian_Bertel.jpg'); }
+                 50%{ background-image: url('https://source.unsplash.com/720x600/?nature,CSS'); }
+                 75%{ background-image: url('https://source.unsplash.com/720x600/?India,CSS'); }
+             }
 
 nav .logo{
     width: 25%; text-align: center;
