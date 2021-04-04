@@ -33,10 +33,12 @@ nav{
              }
 
              @keyframes animate{
-                 0%{ background-image: url('Taj_Mahal_in_India_-_Kristian_Bertel.jpg'); } 
-                 25%{ background-image: url('Taj_Mahal_in_India_-_Kristian_Bertel.jpg'); }
-                 50%{ background-image: url('https://source.unsplash.com/720x600/?nature,CSS'); }
-                 75%{ background-image: url('https://source.unsplash.com/720x600/?India,CSS'); }
+                 0%{ background-image: url('Darjeeling.jpg'); } 
+                 20%{ background-image: url('Taj_Mahal_in_India_-_Kristian_Bertel.jpg'); }
+                 35%{ background-image: url('https://source.unsplash.com/720x600/?nature,CSS'); }
+                 60%{ background-image: url('https://source.unsplash.com/720x600/?nature,CSS'); }
+                 80%{ background-image: url('https://source.unsplash.com/720x600/?India,CSS'); }
+                 100%{ background-image: url('https://source.unsplash.com/720x600/?nature,CSS'); }
              }
 
 nav .logo{
