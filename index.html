@@ -1,21 +1,54 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>My India</title>
-    <link rel="icon" href="favicon (1).ico" type="image/icon type">
-    <background-img class="object-cover object-center rounded" alt="hero" src="Taj_Mahal_in_India_-_Kristian_Bertel.jpg">
+    <title></title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
-    </head>            
+<style>
 
+.container{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    animation: animate 10s ease-in-out infinite;
+    background-size: cover;
+}
+
+@keyframes animate{
+    0%,100%{
+        background-image: url('../images/Darjeeling.jpg');
+    } 
+    20%{
+        background-image: url('../images/Taj_Mahal_in_India_-_Kristian_Bertel.jpg');
+    }
+    35%{
+        background-image: url('../images/jaipur.jpg');
+    }
+    60%{
+        background-image: url('../images/kerala.jpg');
+    }
+    80%{
+        background-image: url('../images/delhi.jpg');
+    }
+    100%{
+        background-image: url('../images/Gateway-of-India_Mumbai.jpg');
+    }
+}
+</style>
+
+    </head>
+    
     <body>
 
 <header>
 
+    <div class="container">
     <nav>
-        <div class="logo"> <h1 class="animated infinite heartBeat"> My India </h1> </div>
+        <div class="logo"> <h1 class="animated infinite heartBeat"> Mera bharat </h1> </div>
         <div class="menu">
 <a href="#" target="_blank">Home</a>
 <a href="#" target="_blank">gallery</a>
@@ -24,6 +57,7 @@
 
         </div>
     </nav>
+
     
 <main>
     <section>
@@ -34,6 +68,7 @@
 <a href="#" class="btntwo">signup here</a>
         </section>
     </main>
+    </div>
 
 
 </header>
