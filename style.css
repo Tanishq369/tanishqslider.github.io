@@ -16,9 +16,10 @@ nav{
     align-items: center; text-transform: uppercase;
 }
 
-nav .logo{
-    width: 25%; text-align: center;
-    /*background: red;*/
+nav .logo img{
+    float: left;
+    width: 150px;
+    height: auto;
 }
 
 nav .menu{
